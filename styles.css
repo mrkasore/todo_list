@@ -1,0 +1,85 @@
+body {
+    background-color: pink;
+    font-size: 30px;
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContent {
+    background-color: rgb(29, 216, 223);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+#add {
+    border: solid;
+    padding: 5px;
+}
+
+#addGoal {
+    border: solid;
+}
+
+#inp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+
+input {
+    height: 30px;
+    text-align: center;
+}
+
+#inputDescription {
+    height: 100px;
+}
+
+select {
+    text-align: center;
+}
+
+#inp.hide {
+    display: none;
+}
+
+.delete {
+    border: solid;
+    background-color: red;
+}
+
+#mainContent>* {
+    margin: 0;
+    padding: 0;
+}
+
+.medium {
+    background-color: blueviolet;
+}
+
+.hard {
+    background-color: red;
+}
+
+.low {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: black;
+}
